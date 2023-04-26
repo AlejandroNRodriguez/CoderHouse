@@ -37,13 +37,13 @@ footer{
 h1 {
     font-size: 80px;
     text-align: center;
-    color: rgb(110, 10, 150);
+    color: whitesmoke;
 }
 
 h2 {
     font-size: 46px;
     text-align: center;
-    color: rgb(110, 10, 150);
+    color: whitesmoke;
     border: none;
     padding: 5px;
     margin: 20px;
@@ -348,5 +348,20 @@ nav div {
     }
     /* -- FIN SECCION GALERIA -- */
 
+    /* -- INICIO SECCION PERSONAJES -- */
 
+    .box_personajes{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   /* -- FIN SECCION PERSONAJES -- */
+
+
+    /* -- INICIO SECCION COMENTARIOS -- */
+    .comentarios article{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* -- INICIO SECCION COPMENTARIOS -- */
 }
