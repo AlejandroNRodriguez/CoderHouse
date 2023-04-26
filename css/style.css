@@ -16,6 +16,7 @@ a {
 
 p {
     font-size: 20px;
+    text-align: center;
 }
 
 header { 
@@ -75,19 +76,23 @@ nav div {
 
 /*--- INICIO SECCION INDEX --- */
 
+.articlemain_index h2{
+    color:rgb(190, 190, 190);
+}
+
 .ulheader {
     width: 100%;
     font-size: 23px;
     list-style: none;
     padding: 5px;
+    gap: 30px;
     display: flex;
     justify-content: space-evenly;
-    gap: 30px;
     align-items: center;
     }
 
 .ulheader li a{
-    color: rgb(135, 25, 225);
+    color: whitesmoke;
     font-weight: bold;
 }
 
@@ -279,12 +284,16 @@ nav div {
     box-shadow: 10px 10px 450px #3282ce;
 }
 
+.info_tepmoradas p{
+    text-align:justify;
+}
+
 /* --- FIN SECCION HISTORIA --- */
 
 
 /* --- INICIO SECCION GALERIA --- */
 
-.gallery{
+.gallery div{
     margin: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -304,7 +313,34 @@ nav div {
 @media (max-width: 576px){
 
 
-/* --INCIO SECCION INICIO-- */
+/* --INCIO SECCION INDEX-- */
+
+header{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+header nav{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.ulheader{
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ulheader li{
+    font-size: 14px;
+}
+
+.logo{
+    height: 55px;
+    justify-content: center;
+}
 
 .dragon__index{
     display: none;
@@ -321,11 +357,9 @@ nav div {
     margin: auto;
 }
 
-
-/* --FIN SECCION INICIO-- */
+/* --FIN SECCION INDEX-- */
 
 /* --INCIO SECCION TEMPORADAS-- */
-
     .temporadas {
         grid-template-columns: 1fr;
         max-width: 100%;
@@ -341,15 +375,24 @@ nav div {
 
     /* -- INICIO SECCION GALERIA -- */
 
-    .gallery{
-        margin: 25px;
-        display: grid;
-        grid-template-columns: 1fr;
+    .gallery div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+        margin: auto;
+    }
+
+    .gallery_img{
+        width: 95%;
+        height: 95%;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     /* -- FIN SECCION GALERIA -- */
 
     /* -- INICIO SECCION PERSONAJES -- */
-
     .box_personajes{
         display: grid;
         grid-template-columns: 1fr;
@@ -362,6 +405,5 @@ nav div {
         display: grid;
         grid-template-columns: 1fr;
     }
-
-    /* -- INICIO SECCION COPMENTARIOS -- */
+    /* -- FIN SECCION COPMENTARIOS -- */
 }
