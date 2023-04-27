@@ -100,10 +100,11 @@ nav div {
     text-shadow: 2px 9px 5px rgba(26,122,149,1);;;
 }
 
-
+.divfooter{
+    display: flex;
+    justify-content: center;
+}
 .ulfooter {
-    margin-left: 30%;
-    margin-right: 30%;
     list-style: none;
     padding: 20px;
     display: flex;
@@ -111,9 +112,10 @@ nav div {
     align-items: center;
 }
 
-.ulfooter i{
+.ulfooter li{
     font-size: 40px;
-    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .textfooter p {
