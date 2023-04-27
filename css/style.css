@@ -157,7 +157,10 @@ nav div {
     margin: 20px;
 }
 
-
+.gallery__index{
+    width: 60%;
+    margin: auto;
+}
 
 
 /*--- FIN SECCION INDEX --- */
@@ -165,10 +168,6 @@ nav div {
 
 
 /*--- INICIO SECCION PERSONAJES --- */
-.gallery__index{
-    width: 40%;
-    margin: auto;
-}
 
 .box_personajes{
     display: flex;
