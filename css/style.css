@@ -281,7 +281,7 @@ nav div {
 }
 
 .img_temporada img{
-    max-width: 700px;
+    width: 90%;
     box-shadow: 10px 10px 450px #3282ce;
 }
 
