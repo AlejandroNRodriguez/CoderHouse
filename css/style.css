@@ -25,7 +25,6 @@ header {
     z-index: 1;
     background-color: black;
     opacity: 0.7;
-    padding: 15px;
 }
 
 footer{
@@ -85,7 +84,7 @@ nav div {
     font-size: 23px;
     list-style: none;
     padding: 5px;
-    gap: 30px;
+    gap: 5px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -162,7 +161,11 @@ nav div {
     margin: auto;
 }
 
-
+.botoncarousel{
+  background-image: none;
+  color: red;
+  font-size: 20px;
+}
 /*--- FIN SECCION INDEX --- */
 
 
