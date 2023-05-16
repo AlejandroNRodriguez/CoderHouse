@@ -1,0 +1,38 @@
+footer{
+    text-align: center;
+    align-items: center;
+    padding-top: $padding-m;
+    padding-bottom: $padding-m;
+    margin: $margin-m;
+}
+.textfooter{
+    padding: 20px;
+    p{
+        color: rgb(158, 134, 255); 
+        margin: $margin-l;
+    }
+}
+
+
+.divfooter{
+    @extend %centerflex;
+    ul{
+        list-style: none;
+        padding: $padding-xl;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li{
+            font-size: 40px;
+            margin-left: $margin-m;
+            margin-right: $margin-m;
+            i{
+                color: rgb(158, 134, 255); 
+            }
+        }
+    }
+}
+
+
+
+

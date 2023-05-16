@@ -1,0 +1,47 @@
+%centerflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%textp{
+    font-size: 20px;
+    text-align: center;
+}
+
+%th1{
+    font-size: 80px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+%th2{
+    font-size: 42px;
+    text-align: center;
+    color: whitesmoke;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+}
+
+%th3{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(135, 25, 255);
+    padding: 10px;
+    margin: 20px;
+}
+
+%th4{
+    color: rgb(135, 25, 225);
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+%bckgr{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgb(5, 5, 41) 0%, rgb(4, 4, 37) 70%);
+}
+

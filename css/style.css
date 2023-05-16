@@ -1,414 +1,405 @@
-* {
-    font-family: 'Poppins', sans-serif;
-    padding: 0;
-    margin: 0;
-    color: rgb(255, 255, 255);
+.comentarios article div, .indiv_personajes div, .temporadas article, .div_iframeindex, .divfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descripcionpersonajes p, .info_temporadas p, .p_index {
+  font-size: 20px;
+  text-align: center;
+}
+
+.articlemain_index h1 {
+  font-size: 80px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+h2, main h2, .articlemain_index h2 {
+  font-size: 42px;
+  text-align: center;
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  margin: 20px;
+}
+
+.nombrepersonajes h4 {
+  color: rgb(135, 25, 225);
+  font-size: 30px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
 }
 
 body {
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgb(5, 5, 41) 0%, rgb(4, 4, 37) 70%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgb(5, 5, 41) 0%, rgb(4, 4, 37) 70%);
 }
 
-a {
-    text-decoration: none;
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: black;
+  opacity: 0.7;
 }
-
-p {
-    font-size: 20px;
-    text-align: center;
-}
-
-header { 
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-    background-color: black;
-    opacity: 0.7;
-}
-
-footer{
-    text-align: center;
-    align-items: center;
-    padding-top: 15px;
-    margin: 15px;
-}
-
-h1 {
-    font-size: 80px;
-    text-align: center;
-    color: whitesmoke;
-}
-
-h2 {
-    font-size: 42px;
-    text-align: center;
-    color: whitesmoke;
-    border: none;
-    padding: 5px;
-    margin: 20px;
-}
-
-h3 {
-    font: 35px;
-    text-align: center;
-    color: rgb(135, 25, 225);
-    border: none;
-    padding: 5px;
-    margin: 20px;
-}
-
-nav {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    flex-flow: wrap;    
-}
-
-nav div { 
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-}
-
-/*--- INICIO SECCION INDEX --- */
-
-.articlemain_index h2{
-    color:rgb(190, 190, 190);
-}
-
-.ulheader {
-    width: 100%;
-    font-size: 23px;
-    list-style: none;
-    padding: 5px;
-    gap: 5px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    }
-
-.ulheader li a{
-    color: whitesmoke;
-    font-weight: bold;
-}
-
-.ulheader li:hover{
-    text-shadow: 2px 9px 5px rgba(26,122,149,1);;;
-}
-
-.divfooter{
-    display: flex;
-    justify-content: center;
-}
-.ulfooter {
-    list-style: none;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.ulfooter li{
-    font-size: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.textfooter p {
-    color: rgb(158, 134, 255); 
-    padding: 15px;
-}
-
-.div_iframeindex{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-
-.dragon__index{
-    width: 100%;
-    height: auto;
-}
-
-.dragon__index__mobile{
-    display: none;
-}
-
-.dragon__index img {
-    width: 100%;
-    height: auto;
-    border: none;
-    margin-bottom: 20px;
-}
-
-.iframe_index{
-    border: 5px solid;
-    border-image: linear-gradient(to right, #5a0986, #fb00ff) 1;
-    box-shadow: 10px 10px 450px #3282ce;
-}
-
-.p_index{
-    padding: 50px;
-    text-align: center;
-    margin: 20px;
-}
-
-.gallery__index{
-    width: 60%;
-    margin: auto;
-}
-
-.botoncarousel{
-  background-image: none;
-  color: red;
-  font-size: 20px;
-}
-/*--- FIN SECCION INDEX --- */
-
-
-
-/*--- INICIO SECCION PERSONAJES --- */
-
-.box_personajes{
-    display: flex;
-}
-
-.box_personajes div{
-    width: 90%;
-}
-
-.indiv_personajes{
-    margin: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.indiv_personajes div img{
-    border-radius: 50%;
-    border: 5px solid #fb00ff;
-    margin: 20px;
-    box-shadow: 10px 10px 450px #3282ce;
-    max-width: 350px;
-    max-height: 350px;
-    display:  flex;
-}
-
-.indiv_personajes div {
-    display: flex;
-    justify-content: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
-
-.nombrepersonajes h4 {
-    color: rgb(135, 25, 225);
-    font-size: 40px;
-    padding: 10px;
-    margin: 20px;
-    text-align: center;
-}
-
-.descripcionpersonajes {
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-}
-
-/*--- FIN SECCION PERSONAJES --- */
-
-
-/* --- INICIO SECCION COMENTARIOS --- */
-
-
-.comentarios article {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    margin: 10px;
-    padding: 20px;    
-}
-
-.comentarios article div {
-    border: solid 2px;
-    padding: 20px;
-    margin: 10px;
-    min-height: 150px;
-    border-radius: 50px;
-    background-color: #8a03d3;
-    opacity: 0.7;
-    box-shadow: 10px 10px 450px #3282ce;
-    text-align: center;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-/* --- FIN SECCION COMENTARIOS --- */
-
-/* --- INICIO SECCION HISTORIA --- */
-.temporadas {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-}
-
-.temporadas article {
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.temporadas article div { 
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
-
-.temporadas article div div{
-    justify-content: space-around;
-    align-items: center;
-}
-
-.img_temporada img{
-    width: 90%;
-    max-width: 700px;
-    box-shadow: 10px 10px 450px #3282ce;
-}
-
-.info_tepmoradas p{
-    text-align:justify;
-}
-
-/* --- FIN SECCION HISTORIA --- */
-
-
-/* --- INICIO SECCION GALERIA --- */
-
-.gallery div{
-    margin: 25px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-}
-
-.gallery_img{
-    width: 90%;
-    height: 90%;
-    box-shadow: 10px 10px 50px #5c32ce;
-}
-
-
-
-/* -------- MEDIA QUERY --------*/
-
-@media (max-width: 576px){
-
-
-/* --INCIO SECCION INDEX-- */
-
-header{
+@media screen and (max-width: 576px) {
+  header {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
 }
-header nav{
+header nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+@media screen and (max-width: 576px) {
+  header nav {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
+  }
 }
-
-.ulheader{
+header nav div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 576px) {
+  header nav div {
+    height: 55px;
+    justify-content: center;
+  }
+}
+header nav ul {
+  width: 100%;
+  font-size: 23px;
+  list-style: none;
+  padding: 5px;
+  gap: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  header nav ul {
     flex-direction: column;
     justify-content: center;
     gap: 3px;
     padding: 0px;
     margin: 0px;
+  }
 }
-
-.ulheader li{
+header nav ul li {
+  font-weight: bold;
+}
+header nav ul li:hover {
+  text-shadow: 2px 9px 5px rgb(26, 122, 149);
+}
+@media screen and (max-width: 576px) {
+  header nav ul li {
     font-size: 14px;
+  }
+}
+header nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
 }
 
-.logo{
-    height: 55px;
-    justify-content: center;
+footer {
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
 }
 
-.dragon__index{
+.textfooter {
+  padding: 20px;
+}
+.textfooter p {
+  color: rgb(158, 134, 255);
+  margin: 15px;
+}
+
+.divfooter ul {
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.divfooter ul li {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.divfooter ul li i {
+  color: rgb(158, 134, 255);
+}
+
+body {
+  font-family: Poppins;
+  color: rgb(245, 245, 245);
+}
+
+.dragon__index {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 576px) {
+  .dragon__index {
     display: none;
+  }
+}
+.dragon__index img {
+  width: 100%;
+  height: auto;
+  border: none;
+  margin-bottom: 20px;
 }
 
-.dragon__index__mobile{
+.dragon__index__mobile {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .dragon__index__mobile {
     display: block;
     height: auto;
     width: 100%;
+  }
 }
 
-.gallery__index{
+@media screen and (max-width: 576px) {
+  .articlemain_index h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .articlemain_index h2 {
+    font-size: 24px;
+  }
+}
+
+.p_index {
+  padding: 50px;
+  text-align: center;
+  margin: 20px;
+}
+@media screen and (max-width: 576px) {
+  .p_index {
+    font-size: 14px;
+  }
+}
+
+.div_iframeindex {
+  margin: 20px;
+}
+.div_iframeindex iframe {
+  border: 5px solid;
+  border-image: linear-gradient(to right, #5a0986, #fb00ff) 1;
+  box-shadow: 10px 10px 450px #3282ce;
+}
+
+.gallery__index {
+  width: 60%;
+  margin: auto;
+  padding: 25px;
+}
+@media screen and (max-width: 576px) {
+  .gallery__index {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main h2 {
+    font-size: 24px;
+  }
+}
+
+.temporadas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  .temporadas {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    justify-content: center;
+  }
+}
+.temporadas article div {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 576px) {
+  .temporadas article div {
+    width: auto;
+  }
+}
+.temporadas article div div {
+  padding: 20px 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img_temporada img {
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 10px 10px 450px #3282ce;
+}
+@media screen and (max-width: 576px) {
+  .img_temporada img {
+    max-width: 90%;
+    box-shadow: 10px 10px 50px #3282ce;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .info_temporadas p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main h2 {
+    font-size: 24px;
+  }
+}
+
+.box_personajes {
+  display: flex;
+}
+@media screen and (max-width: 576px) {
+  .box_personajes {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.box_personajes div {
+  width: 90%;
+}
+
+.indiv_personajes {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.indiv_personajes div img {
+  border-radius: 50%;
+  border: 5px solid #fb00ff;
+  margin: 20px;
+  box-shadow: 10px 10px 450px #3282ce;
+  max-width: 350px;
+  max-height: 350px;
+}
+.indiv_personajes div img:hover {
+  transform: scale(1.1);
+  transition: 1.3s;
+}
+
+@media screen and (max-width: 576px) {
+  .nombrepersonajes h4 {
+    font-size: 20px;
+  }
+}
+
+.descripcionpersonajes {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .descripcionpersonajes p {
+    font-size: 14px;
+  }
+}
+
+.gallery div {
+  margin: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+@media screen and (max-width: 576px) {
+  .gallery div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
     margin: auto;
+  }
 }
 
-/* --FIN SECCION INDEX-- */
-
-/* --INCIO SECCION TEMPORADAS-- */
-    .temporadas {
-        grid-template-columns: 1fr;
-        max-width: 100%;
-        justify-content: center;
-    }
-
-    .img_temporada img{
-        max-width: 90%;
-        box-shadow: 10px 10px 50px #5c32ce;
-    }
-
-    /* -- FIN SECCION TEMPORADAS -- */
-
-    /* -- INICIO SECCION GALERIA -- */
-
-    .gallery div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 95%;
-        margin: auto;
-    }
-
-    .gallery_img{
-        width: 95%;
-        height: 95%;
-        margin: auto;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    /* -- FIN SECCION GALERIA -- */
-
-    /* -- INICIO SECCION PERSONAJES -- */
-    .box_personajes{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-   /* -- FIN SECCION PERSONAJES -- */
-
-
-    /* -- INICIO SECCION COMENTARIOS -- */
-    .comentarios article{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    /* -- FIN SECCION COPMENTARIOS -- */
+.gallery_img {
+  width: 90%;
+  height: 90%;
+  box-shadow: 10px 10px 50px #5c32ce;
+  margin: 10px;
+  cursor: pointer;
 }
+.gallery_img:hover {
+  transform: scale(1.1);
+  transition: 1.3s;
+}
+@media screen and (max-width: 576px) {
+  .gallery_img {
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+
+.comentarios article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 10px;
+  padding: 20px;
+}
+@media screen and (max-width: 576px) {
+  .comentarios article {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.comentarios article div {
+  border: solid 2px;
+  padding: 20px;
+  margin: 10px;
+  min-height: 150px;
+  border-radius: 50px;
+  background-color: #8a03d3;
+  opacity: 0.7;
+  box-shadow: 10px 10px 450px #3282ce;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .comentarios article div p {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,61 @@
+main{
+    h2{
+        @extend %th2;
+        @include mobile{
+            font-size: $h2mob;
+        }
+    }
+}
+
+.temporadas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: $total;
+    @include mobile{
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        justify-content: center;
+    }
+    article{
+        @extend %centerflex;
+        div{
+            margin: $margin-m;
+            padding: $padding-m;
+            display: flex;
+            align-content: center;
+            justify-content: space-around;
+            flex-direction: column;
+            width: $total;
+            height: $total;
+            @include mobile{
+                width: auto;
+            }
+            div{
+                padding: $padding-xl $padding-m;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.img_temporada{
+    img{
+        width: 90%;
+        max-width: 700px;
+        box-shadow: 10px 10px 450px #3282ce;
+        @include mobile{
+            max-width: 90%;
+            box-shadow: 10px 10px 50px #3282ce;
+        }
+    }
+}
+
+.info_temporadas{
+    p{
+        @extend %textp;
+        @include mobile{
+            font-size: $fzmob;
+        }
+    }
+}

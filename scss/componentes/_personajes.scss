@@ -1,0 +1,63 @@
+main{
+    h2{
+        @extend %th2;
+        @include mobile{
+            font-size: $h2mob;
+        }
+    }
+}
+
+.box_personajes{
+        display: flex;
+        @include mobile{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        div{
+            width: 90%;
+        }
+    }
+
+
+.indiv_personajes{
+    margin: $margin-l;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        div{
+        @extend %centerflex;
+        img{
+            border-radius: 50%;
+            border: map-get($bordercolor,fuxialiso);
+            margin: $margin-xl;
+            box-shadow: 10px 10px 450px #3282ce;
+            max-width: 350px;
+            max-height: 350px;
+            &:hover{
+                transform: scale(1.1);
+                transition: 1.3s;
+            }
+        }
+    }
+}
+
+.nombrepersonajes{
+    h4{
+        @extend %th4;
+        @include mobile{
+            font-size: $h4mob;
+        }
+    }
+}
+
+.descripcionpersonajes {
+    padding: $padding-m;
+    margin: $margin-m;
+    text-align: center;
+    p{
+        @extend %textp;
+        @include mobile{
+            font-size: $fzmob;
+        }
+    }
+}

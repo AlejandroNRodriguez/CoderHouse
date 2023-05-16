@@ -1,0 +1,34 @@
+.gallery{
+    div{
+        margin: $margin-xxl;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        @include mobile{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 95%;
+            margin: auto;
+        }
+    }
+}
+
+.gallery_img{
+    width: 90%;
+    height: 90%;
+    box-shadow: map-get($boxshadow,violeta);
+    margin: $margin-m;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.1);
+        transition: 1.3s;
+    }
+    @include mobile{
+        width: 95%;
+        height: 95%;
+        margin: auto;
+        margin-top: $margin-s;
+        margin-bottom: $margin-s;
+        }
+    }
